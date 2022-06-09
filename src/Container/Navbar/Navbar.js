@@ -1,18 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css'; 
+import {HashLink as Link } from 'react-router-hash-link'; 
 
 const Navbar = () => {
-    const navigate = useNavigate();  
-    const projects = () =>{
-        toast.info('My Projects are being shown at the below of this website. Just check this out.'); 
-        navigate('/projects')
-    }
-
-    const home = () =>{
-        navigate('/')
-    }
     return (
         <div>
             <div class="navbar bg-base-100">
@@ -22,28 +11,30 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>About me</a></li>
-                            <li onClick={projects}><a>Projects</a></li>
+                            <li><Link smooth to='#aboutme'>About me</Link></li>
+                            <li><Link smooth to='#projects'>Projects</Link></li>
                             <li tabindex="0">
                                 <a class="justify-between">
                                 Resume
                                 </a>
                             </li>
-                            <li><a>Contact me</a></li>
+                            <li><Link smooth to='#contactme'>Contact me</Link></li>
+
+                            <li><Link smooth to='#blogs'>Blogs</Link></li>
                         </ul>
                     </div>
-                    <a onClick={home} class="btn btn-ghost normal-case text-2xl">Shakidul Islam Shakil</a>
+                    <Link smooth to='#' class="btn btn-ghost normal-case text-2xl">Shakidul Islam Shakil</Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
-                        <li><a>About me</a></li>
-                        <li onClick={projects}><a>Projects</a></li>
+                    <li><Link smooth to='#aboutme'>About me</Link></li>
+                        <li><Link smooth to='#projects'>Projects</Link></li>
                         <li tabindex="0">
                             <a>
                                 Resume
                             </a>
                         </li>
-                        <li><a>Contuct me</a></li>
+                        <li><Link smooth to='#contactme'>Contact me</Link></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
@@ -55,18 +46,15 @@ const Navbar = () => {
                         </label>
                         <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
                             <li>
-                                <a class="justify-between">
-                                    About me
-                                </a>
+                            <li><Link smooth to='#aboutme'>About me</Link></li>
                             </li>
-                            <li onClick={projects}><a>Projects</a></li>
+                            <li><Link smooth to='#projects'>Projects</Link></li>
                             <li><a>Resume</a></li>
-                            <li><a>Contact me</a></li>
+                            <li><Link smooth to='#contactme'>Contact me</Link></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <ToastContainer></ToastContainer>
         </div>
     );
 };

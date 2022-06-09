@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import {send} from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css'; 
+import BackToTop from '../BackToTop';
 
 const ContuctMe = () => {
     const [modal, setModal] =useState(null); 
@@ -42,7 +43,7 @@ const ContuctMe = () => {
 
     console.log(modal); 
     return (
-        <div className='mb-12'>
+        <div className='mb-12' id='contactme'>
             <div>
                 <h1 className='flex justify-center text-5xl'>Contact With Me</h1>
                 <p className='flex justify-center mb-8'>Let's keep in touch</p>
@@ -61,6 +62,7 @@ const ContuctMe = () => {
                                 </label>
                                 <input onBlur={handleName} type="text" name='name' placeholder="Type here" class="input input-bordered input-success w-full max-w-xs" />
                             </div>
+                            
                             <div class="form-control">
                                 <label class="label">
                                     <span class="label-text">Email</span>
@@ -85,6 +87,8 @@ const ContuctMe = () => {
                         <h1 class="text-5xl font-bold text-fuchsia-600">Get In Touch With Me <i class="fa-solid fa-envelope"></i></h1>
                         <p class="py-6 text-white text-2xl">Send your email here.</p>
                     </div>
+                </div>
+                <div className='flex justify-end'>
                 </div>
             </div>
             {

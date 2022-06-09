@@ -6,6 +6,7 @@ import AboutMe from './Container/AboutMe/AboutMe';
 import ContuctMe from './Container/ContuctMe/ContuctMe';
 import { Route, Routes } from 'react-router-dom';
 import Projects from './Container/Projects/Projects';
+import Blogs from './Container/Blogs/Blogs';
 
 function App() {
   return (
@@ -14,9 +15,19 @@ function App() {
       <Home></Home>
       <AboutMe></AboutMe>
       <ContuctMe></ContuctMe>
-      <Routes>
-        <Route path='/projects' element={<Projects></Projects>}></Route>
-      </Routes>
+      <Projects></Projects>
+      <Blogs></Blogs>
+      {/* <Routes>
+        <Route path='/' element={}></Route>
+
+        <Route path='/aboutme' element={}></Route>
+
+        <Route path='/contactme' element={}></Route>
+
+        <Route path='/projects' element={}></Route>
+
+        <Route path='/blogs' element={}></Route>
+      </Routes> */}
     </div>
   );
 }

@@ -14,7 +14,7 @@ const Home = () => {
     }
     return (
         <div>
-            <div class="hero">
+            <div class="hero" id='top'>
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div>
                     <img src="https://i.ibb.co/g3ChxK2/IMG-7010-modified.png" class="max-w-sm rounded-lg mx-12" />

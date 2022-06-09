@@ -15,7 +15,7 @@ const AboutMe = () => {
         setHire(100);
     }
     return (
-        <div className='mx-12 mb-12 lg:mt-24'>
+        <div className='mx-12 mb-12 lg:mt-24' id='aboutme'>
             <h1 className='flex justify-center text-5xl'>About Me</h1>
             <p className='flex justify-center mb-8'>Why you choose me?</p>
 
