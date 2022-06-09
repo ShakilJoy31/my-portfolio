@@ -25,7 +25,6 @@ const AboutMe = () => {
                     <div class="card-body">
                         <h2 class="card-title text-3xl">
                             Simple Description about me
-                            <div class="badge badge-secondary">NEW</div>
                         </h2>
                         <p className='text-xl'>A Full Stack Web developer with back-end knowledge for the web application. I also have background knowledge of MERN stacks development. A lot of projects were build and developed over the last year. I like to be developed and to make the application developed.</p>
                         <div>
