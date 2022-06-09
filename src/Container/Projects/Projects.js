@@ -2,11 +2,13 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className='mx-8 mb-12'>
+        <div className='mx-8 mt-24 mb-12'>
+            <h1 className='flex justify-center mb-8 text-5xl text-purple-600'>Projects Section</h1>
             <div className='grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
                 <div class="card card-compact w-100 bg-base-100 shadow-2xl">
                     <figure><img className='w-full' src="https://i.ibb.co/TPtYqnp/Screenshot-673.png" alt="Shoes" /></figure>
                     <div class="card-body">
+                        <div className='h-full'>
                         <div className=''>
                             <h2 class="card-title text-4xl">Tools Manufacturer</h2>
                             <p> Attention: <span className="text-red-500"> if you want to log in as admin. Use this gmail and Password.</span></p>
@@ -25,6 +27,7 @@ const Projects = () => {
                             <li><i class="fa-solid fa-circle text-purple-400"></i> Payment Method Implemented</li><br />
                             <li><i class="fa-solid fa-circle text-purple-400"></i> JWT Verification for User and Admin</li><br />
                         </ul>
+                        </div>
                         <div class="card-actions justify-center block">
                             <button class="btn btn-primary w-full">Explore More</button>
                         </div>
@@ -35,6 +38,7 @@ const Projects = () => {
                 <div class="card card-compact w-100 bg-base-100 shadow-2xl">
                     <figure><img className='w-full' src="https://i.ibb.co/x3PRjsX/Screenshot-676.png" alt="Shoes" /></figure>
                     <div class="card-body">
+                        <div className='h-full'>
                         <div className=''>
                             <h2 class="card-title text-4xl">Smart-Book Ware houser</h2>
                             <div className='flex justify-between text-2xl'>
@@ -52,6 +56,7 @@ const Projects = () => {
                             </li><br />
 
                         </ul>
+                        </div>
                         <div class="card-actions justify-center block">
                             <button class="btn btn-primary w-full">Explore More</button>
                         </div>
@@ -62,6 +67,7 @@ const Projects = () => {
                 <div class="card card-compact w-100 bg-base-100 shadow-2xl">
                     <figure><img className='w-full' src="https://i.ibb.co/hcJShmZ/Screenshot-680.png" alt="Shoes" /></figure>
                     <div class="card-body">
+                        <div className='h-full'>
                         <div className=''>
                             <h2 class="card-title text-4xl">To-Do App</h2>
                             <div className='flex justify-between text-2xl'>
@@ -83,6 +89,7 @@ const Projects = () => {
 
                             <li><i class="fa-solid fa-circle text-purple-400"></i> MongoDB is used as Database</li><br />
                         </ul>
+                        </div>
                         <div class="card-actions justify-center block">
                             <button class="btn btn-primary w-full">Explore More</button>
                         </div>
@@ -93,6 +100,7 @@ const Projects = () => {
                 <div class="card card-compact w-100 bg-base-100 shadow-2xl">
                     <figure><img className='w-full' src="https://i.ibb.co/g3smNv2/Screenshot-681.png" alt="Shoes" /></figure>
                     <div class="card-body">
+                        <div className='h-full'>
                         <div className=''>
                             <h2 class="card-title text-4xl">Wild Photography World</h2>
                             <div className='flex justify-between text-2xl'>
@@ -108,6 +116,7 @@ const Projects = () => {
                             <li><i class="fa-solid fa-circle text-purple-400"></i> Some Question Answer Written.</li><br />
                             <li><i class="fa-solid fa-circle text-purple-400"></i> Banner Added by Bootstrap</li><br />
                         </ul>
+                        </div>
                         <div class="card-actions justify-center block">
                             <button class="btn btn-primary w-full">Explore More</button>
                         </div>
@@ -118,6 +127,7 @@ const Projects = () => {
                 <div class="card card-compact w-100 bg-base-100 shadow-2xl">
                     <figure><img className='w-full' src="https://i.ibb.co/FXVdjxh/Screenshot-682.png" alt="Shoes" /></figure>
                     <div class="card-body">
+                        <div className='h-full'>
                         <div className=''>
                             <h2 class="card-title text-4xl">Temperature View</h2>
                             <div className='flex justify-between text-2xl'>
@@ -131,6 +141,7 @@ const Projects = () => {
                             <li><i class="fa-solid fa-circle text-purple-400"></i> Responsive Website</li><br />
                             <li><i class="fa-solid fa-circle text-purple-400"></i> Suitable Background Picture</li><br />
                         </ul>
+                        </div>
                         <div class="card-actions justify-center block">
                             <button class="btn btn-primary w-full">Explore More</button>
                         </div>

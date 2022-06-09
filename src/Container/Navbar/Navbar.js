@@ -1,9 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css'; 
 
 const Navbar = () => {
     const navigate = useNavigate();  
     const projects = () =>{
+        toast.info('My Projects are being shown at the below of this website. Just check this out.'); 
         navigate('/projects')
     }
 
@@ -63,6 +66,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
