@@ -15,11 +15,11 @@ const AboutMe = () => {
         setHire(100);
     }
     return (
-        <div className='mx-12 mb-12 lg:mt-24' id='aboutme'>
+        <div className='mb-12 lg:mt-24' id='aboutme' data-aos="zoom-out-down">
             <h1 className='flex justify-center text-5xl'>About Me</h1>
             <p className='flex justify-center mb-8'>Why you choose me?</p>
 
-            <div className=''>
+            <div className='hero'>
                 <div class="w-full rounded-lg bg-cyan-100 shadow-2xl flex">
                     <figure><img className='hidden w-full h-full lg:block md:block' src={myImage} alt="Shoes" /></figure>
                     <div class="card-body">

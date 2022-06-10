@@ -7,6 +7,12 @@ import ContuctMe from './Container/ContuctMe/ContuctMe';
 import { Route, Routes } from 'react-router-dom';
 import Projects from './Container/Projects/Projects';
 import Blogs from './Container/Blogs/Blogs';
+import MySkills from './Container/MySkills/MySkills';
+import Education from './Container/MySkills/Education';
+import Work from './Container/MySkills/Work';
+import ProgrammingSkill from './Container/MySkills/ProgrammingSkill';
+import Interest from './Container/MySkills/Interest';
+import Passion from './Container/MySkills/Passion';
 
 function App() {
   return (
@@ -14,20 +20,27 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <AboutMe></AboutMe>
+      
+      <div className='w-full'>
+      <Routes>
+        <Route path='/myskills' element={<MySkills></MySkills>}>
+          <Route index element={<Education></Education>}></Route>
+
+          <Route path='works' element={<Work></Work>}></Route>
+
+          <Route path='programmingskills' element={<ProgrammingSkill></ProgrammingSkill>}></Route>
+
+          <Route path='interests' element={<Interest></Interest>}></Route>
+
+          <Route path='passion' element={<Passion></Passion>}></Route> 
+        </Route>
+      </Routes>
+      </div>
+
+      
       <ContuctMe></ContuctMe>
       <Projects></Projects>
       <Blogs></Blogs>
-      {/* <Routes>
-        <Route path='/' element={}></Route>
-
-        <Route path='/aboutme' element={}></Route>
-
-        <Route path='/contactme' element={}></Route>
-
-        <Route path='/projects' element={}></Route>
-
-        <Route path='/blogs' element={}></Route>
-      </Routes> */}
     </div>
   );
 }

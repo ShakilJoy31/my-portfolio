@@ -42,7 +42,7 @@ const Projects = () => {
         <div className='mx-8 mt-24 mb-12' id='projects'>
             <h1 className='flex justify-center mb-8 text-5xl text-purple-600'>Projects Section</h1>
             <div className='grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
-                <div class="card card-compact w-100 bg-base-100 shadow-2xl">
+                <div class="card card-compact w-100 bg-orange-50 shadow-2xl"  data-aos="zoom-in-up">
                     <figure><img className='w-full' src="https://i.ibb.co/TPtYqnp/Screenshot-673.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <div className='h-full'>
@@ -72,7 +72,7 @@ const Projects = () => {
                 </div>
 
 
-                <div class="card card-compact w-100 bg-base-100 shadow-2xl">
+                <div class="card card-compact w-100 bg-orange-50 shadow-2xl"  data-aos="zoom-in-down">
                     <figure><img className='w-full' src="https://i.ibb.co/x3PRjsX/Screenshot-676.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <div className='h-full'>
@@ -101,7 +101,7 @@ const Projects = () => {
                 </div>
 
 
-                <div class="card card-compact w-100 bg-base-100 shadow-2xl">
+                <div class="card card-compact w-100 bg-orange-50 shadow-2xl"  data-aos="zoom-in-up">
                     <figure><img className='w-full' src="https://i.ibb.co/hcJShmZ/Screenshot-680.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <div className='h-full'>
@@ -134,7 +134,7 @@ const Projects = () => {
                 </div>
 
 
-                <div class="card card-compact w-100 bg-base-100 shadow-2xl">
+                <div class="card card-compact w-100 bg-orange-50 shadow-2xl"  data-aos="zoom-in-down">
                     <figure><img className='w-full' src="https://i.ibb.co/g3smNv2/Screenshot-681.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <div className='h-full'>
@@ -161,7 +161,7 @@ const Projects = () => {
                 </div>
 
 
-                <div class="card card-compact w-100 bg-base-100 shadow-2xl">
+                <div class="card card-compact w-100 bg-orange-50 shadow-2xl"  data-aos="zoom-in-up">
                     <figure><img className='w-full' src="https://i.ibb.co/FXVdjxh/Screenshot-682.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <div className='h-full'>

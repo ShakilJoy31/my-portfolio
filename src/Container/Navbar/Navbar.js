@@ -14,9 +14,9 @@ const Navbar = () => {
                             <li><Link smooth to='#aboutme'>About me</Link></li>
                             <li><Link smooth to='#projects'>Projects</Link></li>
                             <li tabindex="0">
-                                <a class="justify-between">
-                                Resume
-                                </a>
+                                <Link smooth to='#myskills' class="justify-between">
+                                Skills Section
+                                </Link>
                             </li>
                             <li><Link smooth to='#contactme'>Contact me</Link></li>
 
@@ -30,9 +30,9 @@ const Navbar = () => {
                     <li><Link smooth to='#aboutme'>About me</Link></li>
                         <li><Link smooth to='#projects'>Projects</Link></li>
                         <li tabindex="0">
-                            <a>
-                                Resume
-                            </a>
+                            <Link smooth to='#myskills'>
+                                Skills Section
+                            </Link>
                         </li>
                         <li><Link smooth to='#contactme'>Contact me</Link></li>
                     </ul>
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <li><Link smooth to='#aboutme'>About me</Link></li>
                             </li>
                             <li><Link smooth to='#projects'>Projects</Link></li>
-                            <li><a>Resume</a></li>
+                            <li><Link smooth to='#myskills'>Skills Section</Link></li>
                             <li><Link smooth to='#contactme'>Contact me</Link></li>
                         </ul>
                     </div>

@@ -43,7 +43,8 @@ const ContuctMe = () => {
 
     console.log(modal); 
     return (
-        <div className='mb-12' id='contactme'>
+        <div className='w-100'>
+            <div className='mb-12 w-100' id='contactme'>
             <div>
                 <h1 className='flex justify-center text-5xl'>Contact With Me</h1>
                 <p className='flex justify-center mb-8'>Let's keep in touch</p>
@@ -52,8 +53,8 @@ const ContuctMe = () => {
 
             <div style={{
                 backgroundImage: `url("https://martech.org/wp-content/uploads/2015/09/email-laptop-computer-marketing-ss-1920.jpg")`
-            }} class="hero rounded-lg bg-red-100">
-                <div class="hero-content flex-col lg:flex-row-reverse">
+            }} class="hero rounded-lg w-100 bg-red-100">
+                <div class="hero-content w-100 flex-col lg:flex-row-reverse">
                     <div class="card w-96 block mx-auto shadow-2xl bg-emerald-200">
                         <div class="card-body">
                             <div class="form-control">
@@ -79,12 +80,24 @@ const ContuctMe = () => {
 
                             <div class="form-control mt-6">
                             <label onClick={handleOnSubmit} type='submit' for="my-modal-5" class="btn modal-button btn-info text-2xl">Send <i class="fa-solid fa-paper-plane text-2xl ml-2 text-purple-600"></i></label>
-                                
                             </div>
                         </div>
                     </div>
                     <div>
-                        <h1 class="text-5xl font-bold text-fuchsia-600">Get In Touch With Me <i class="fa-solid fa-envelope"></i></h1>
+                        <h1 class="text-5xl font-bold text-fuchsia-600 mb-4">Get In Touch With Me <i class="fa-solid fa-envelope"></i></h1>
+                        <div>
+                            <a className='mr-4' target='_blank' href="https://www.facebook.com/shakil.ahammedjoy.39/"><button class="btn btn-xs btn-error">Facebook</button></a>
+
+                            <a className='mr-4' target='_blank' href=""><button class="btn btn-xs btn-error">Email</button></a>
+
+                            <a className='mr-4' target='_blank' href="https://www.linkedin.com/in/shakidul-islam-shakil-537696219/"><button class="btn btn-xs btn-error">Linked in</button></a>
+
+                            <a className='mr-4' target='_blank' href=""><button class="btn btn-xs btn-error">Twitter</button></a>
+
+                            <a className='mr-4' target='_blank' href="https://www.instagram.com/shakil.ahammedjoy.39/?hl=en"><button class="btn btn-xs btn-error">Instagram</button></a>
+
+                        </div>
+                        
                         <p class="py-6 text-white text-2xl">Send your email here.</p>
                     </div>
                 </div>
@@ -106,6 +119,7 @@ const ContuctMe = () => {
                 </div>
             }
             <ToastContainer></ToastContainer>
+        </div>
         </div>
     );
 };
