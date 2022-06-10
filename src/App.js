@@ -20,10 +20,9 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <AboutMe></AboutMe>
-      
       <div className='w-full'>
       <Routes>
-        <Route path='/myskills' element={<MySkills></MySkills>}>
+        <Route path='/' element={<MySkills></MySkills>}>
           <Route index element={<Education></Education>}></Route>
 
           <Route path='works' element={<Work></Work>}></Route>

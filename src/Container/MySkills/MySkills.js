@@ -14,14 +14,14 @@ const MySkills = () => {
                             <div class="card w-100 shadow-2xl bg-emerald-100">
                                 <div class="card-body">
                                     <ul class="menu p-4 overflow-y-auto w-80 text-base-content">
-                                        <li><Link smooth to='/myskills'>Education</Link></li>
-                                        <li><Link smooth to='/myskills/works'>Work History</Link></li>
+                                        <li><Link smooth to='/'>Education</Link></li>
+                                        <li><Link smooth to='/works'>Work History</Link></li>
 
-                                        <li><Link smooth to='/myskills/programmingskills'>Programming Skills</Link></li>
+                                        <li><Link smooth to='/programmingskills'>Programming Skills</Link></li>
 
-                                        <li><Link smooth to='/myskills/interests'>Interests</Link></li>
+                                        <li><Link smooth to='/interests'>Interests</Link></li>
 
-                                        <li><Link smooth to='/myskills/passion'>Passion</Link></li>
+                                        <li><Link smooth to='/passion'>Passion</Link></li>
                                     </ul>
                                 </div>
                             </div>
