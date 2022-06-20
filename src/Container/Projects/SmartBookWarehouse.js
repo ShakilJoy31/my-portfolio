@@ -42,6 +42,15 @@ warehouse can update whatever they want.
                         </li><br />
                         
                     </ul>
+                    <div className='flex items-center justify-center gap-2'>
+                        <h1 className='text-xl'>Used: </h1>
+                    <button class="btn btn-xs btn-primary">React</button>
+                    <button class="btn btn-xs btn-primary">NodeJs</button>
+                    <button class="btn btn-xs btn-primary">MongoDB</button>
+                    <button class="btn btn-xs btn-primary">Firebase</button>
+                    <button class="btn btn-xs btn-primary">Tailwind CSS</button>
+                    </div>
+
                     <div class="modal-action flex justify-center">
                         <label for="my-modal-5" class="btn btn-error text-white w-full btn-outline text-2xl">Close This Project</label>
                     </div>

@@ -39,7 +39,7 @@ const Projects = () => {
     console.log(temperatureApp); 
     
     return (
-        <div className='mx-8 mt-24 mb-12' id='projects'>
+        <div className='mx-8 mt-8 mb-12' id='projects'>
             <h1 className='flex justify-center mb-8 text-5xl text-purple-600'>Projects Section</h1>
             <div className='grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
                 <div class="card card-compact w-100 bg-orange-50 shadow-2xl"  data-aos="zoom-in-up">
@@ -48,8 +48,6 @@ const Projects = () => {
                         <div className='h-full'>
                             <div className=''>
                                 <h2 class="card-title text-4xl">Tools Manufacturer</h2>
-                                <p> Attention: <span className="text-red-500"> if you want to log in as admin. Use this gmail and Password.</span></p>
-                                <p>Gmail: <span className="text-red-500 ">herokujoy123@gmail.com </span> PassWord: <span className="text-red-500 ">Heroku123</span></p>
                                 <div className='flex justify-between text-2xl'>
                                     <a target='_blank' href="https://tools-manufacturer.web.app/"><button class="btn btn-sm">Live site</button></a>
                                     <a target='_blank' href="https://github.com/ShakilJoy31/tools-manufacturer-website"><button class="btn btn-sm">Client Code</button></a>

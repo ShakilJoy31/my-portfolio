@@ -36,6 +36,13 @@ const WildPhotography = () => {
                         </li><br />
                         
                     </ul>
+                    <div className='flex items-center gap-2'>
+                        <h1 className='text-xl'>Used: </h1>
+                    <button class="btn btn-xs btn-primary">React</button>
+                    <button class="btn btn-xs btn-primary">Firebase</button>
+                    <button class="btn btn-xs btn-primary">React Router</button>
+                    <button class="btn btn-xs btn-primary">Authentication</button>
+                    </div>
                     <div class="modal-action flex justify-center">
                         <label for="my-modal-3" class="btn btn-error text-white w-full btn-outline text-2xl">Close This Project</label>
                     </div>

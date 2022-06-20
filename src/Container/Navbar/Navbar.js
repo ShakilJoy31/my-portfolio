@@ -19,8 +19,6 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li><Link smooth to='#contactme'>Contact me</Link></li>
-
-                            <li><Link smooth to='#blogs'>Blogs</Link></li>
                         </ul>
                     </div>
                     <Link smooth to='#' class="btn btn-ghost normal-case text-2xl">Shakidul Islam Shakil</Link>
@@ -38,20 +36,25 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <div class="dropdown dropdown-end">
+                    <div class="dropdown dropdown-end  hidden lg:block md:block">
+
                         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-                            <div class="w-10 rounded-full">
-                                <img src="https://i.ibb.co/g3ChxK2/IMG-7010-modified.png" />
+                            <div class="rounded-full">
+                            <a target='_blank' href="https://www.facebook.com/shakil.ahammedjoy.39/"><i class="fa-brands fa-facebook text-4xl"></i></a>
                             </div>
                         </label>
-                        <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-                            <li>
-                            <li><Link smooth to='#aboutme'>About me</Link></li>
-                            </li>
-                            <li><Link smooth to='#projects'>Projects</Link></li>
-                            <li><Link smooth to='#myskills'>Skills Section</Link></li>
-                            <li><Link smooth to='#contactme'>Contact me</Link></li>
-                        </ul>
+                        
+                        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                            <div class="">
+                            <a target='_blank' href="https://www.linkedin.com/in/shakidul-islam-shakil-537696219/"><i class="fa-brands fa-linkedin text-4xl"></i></a>
+                            </div>
+                        </label>
+
+                        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                            <div class="">
+                            <a target='_blank' href="https://github.com/shakiljoy31"><i class="fa-brands fa-github text-4xl"></i></a>
+                            </div>
+                        </label>
                     </div>
                 </div>
             </div>

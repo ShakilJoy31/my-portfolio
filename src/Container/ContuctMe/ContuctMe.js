@@ -46,16 +46,16 @@ const ContuctMe = () => {
         <div className='w-100'>
             <div className='mb-12 w-100' id='contactme'>
             <div>
-                <h1 className='flex justify-center text-5xl'>Contact With Me</h1>
-                <p className='flex justify-center mb-8'>Let's keep in touch</p>
-            </div>
+                <h1 className='flex justify-center text-5xl text-purple-500'>Contact With Me</h1>
+                <p className='flex justify-center mb-8 text-purple-300'>Let's keep in touch</p>
+            </div> 
 
 
-            <div style={{
-                backgroundImage: `url("https://martech.org/wp-content/uploads/2015/09/email-laptop-computer-marketing-ss-1920.jpg")`
+            <div className='rounded-lg' style={{
+                backgroundImage: `url("https://img.freepik.com/free-photo/businessman-holding-smartphone-with-communication-icons-letter-icon-email-icons-newsletter-email-protect-your-personal-information-spam-mail-customer-service-call-center-contact_162459-2429.jpg?w=1380")`
             }} class="hero rounded-lg w-100 bg-red-100">
                 <div class="hero-content w-100 flex-col lg:flex-row-reverse">
-                    <div class="card w-96 block mx-auto shadow-2xl bg-emerald-200">
+                    <div class="card w-96 block mx-auto shadow-2xl shadow-purple-500 bg-emerald-200">
                         <div class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -84,7 +84,7 @@ const ContuctMe = () => {
                         </div>
                     </div>
                     <div>
-                        <h1 class="text-5xl font-bold text-fuchsia-600 mb-4">Get In Touch With Me <i class="fa-solid fa-envelope"></i></h1>
+                        <h1 class="text-5xl font-bold text-amber-200 mb-4">Get In Touch With Me <i class="fa-solid fa-envelope"></i></h1>
                         <div>
                             <a className='mr-4' target='_blank' href="https://www.facebook.com/shakil.ahammedjoy.39/"><button class="btn btn-xs btn-error">Facebook</button></a>
 
